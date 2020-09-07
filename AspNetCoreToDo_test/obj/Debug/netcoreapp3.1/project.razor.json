@@ -14407,6 +14407,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\acer\\Documents\\Project\\C#_work\\AspNetCoreToDo_test\\AspNetCoreToDo_test\\Views\\Todo\\AddItemPartial.cshtml",
+      "TargetPath": "Views\\Todo\\AddItemPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\acer\\Documents\\Project\\C#_work\\AspNetCoreToDo_test\\AspNetCoreToDo_test\\Views\\Todo\\realIndex.cshtml",
+      "TargetPath": "Views\\Todo\\realIndex.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\acer\\Documents\\Project\\C#_work\\AspNetCoreToDo_test\\AspNetCoreToDo_test\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"

@@ -12,6 +12,7 @@ using AspNetCoreToDo_test.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using AspNetCoreTodo.Services;
 
 namespace AspNetCoreToDo_test
 {
@@ -34,6 +35,14 @@ namespace AspNetCoreToDo_test
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
            services.AddRazorPages();
+
+
+            /* added by zhaozhenhui */
+            services.AddMvc();
+            services.AddSingleton<ITodoItemService, FakeTodoItemService>();
+            services.AddScoped<ITodoItemService, TodoItemService>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
